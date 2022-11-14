@@ -24,7 +24,6 @@ public class HttpClientExample {
                 .build();
 
 
-
         var response = httpClient.send(request, BodyHandlers.ofString());
         System.out.println(response.body());
         System.out.println(response.headers());
